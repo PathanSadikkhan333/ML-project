@@ -43,6 +43,8 @@ class ModelTrainer:
                 "AdaBoost Classifier": AdaBoostRegressor(),
             }
 
+#Hyperparameter Training
+
             params={
                 "Decision Tree": {
                     'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
